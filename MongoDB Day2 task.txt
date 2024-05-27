@@ -1,0 +1,1460 @@
+1. Find all the topics and tasks which are thought in the month of October? 
+
+db.topics.aggregate([{
+$lookup:{
+  from: "tasks",
+  localField: "month",
+  foreignField: "provided_date",
+  as: "result",
+} 
+}]);
+
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba04"),
+  title: 'HTML- Day -1: HTML',
+  contents: [
+    'What is HTML & Why use it?',
+    'Basic Tags',
+    'HTML vs HTML5',
+    'div vs section vs article',
+    'div vs span',
+    'inline vs block elements',
+    'HTML Forms',
+    'Input elements and attributes',
+    'Form submit'
+  ],
+  month: '2020-10-01',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba05"),
+  title: 'HTML & CSS- Day -2: HTML & CSS',
+  contents: [
+    'What is CSS?',
+    'ways to use CSS',
+    'property & value',
+    'class vs id',
+    'use of important',
+    'display property: inline, block'
+  ],
+  month: '2020-10-02',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba06"),
+  title: 'HTML & CSS- Day -3: HTML & CSS',
+  contents: [
+    'Intro to pseudo-classes (link, visited,hover, active)',
+    'box model: padding, margin, border',
+    'Grid',
+    'Flex - display, direction, wrap, flex-flow, justify-content, align-content',
+    'position property: fixed, static, relative, absolute, sticky',
+    'parent inherit',
+    'gradient'
+  ],
+  month: '2020-10-05',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba07"),
+  title: 'HTML & CSS- Day -4: HTML & CSS',
+  contents: [
+    'overflow - hidden, scroll, auto, visible',
+    'dropbox',
+    'measurements',
+    'fonts',
+    'icons',
+    'media query'
+  ],
+  month: '2020-10-06',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba08"),
+  title: 'HTML & CSS- Day -5: HTML & CSS',
+  contents: [
+    'What is RWD?',
+    'What is the mobile-first approach?',
+    'Bootstrap',
+    '- How to set up bootstrap?',
+    '- What is the layout?',
+    '- what is container, container-fluid & container with breakpoints?',
+    '- What is a grid in Bootstrap?',
+    '- what is a column prefix & its use and maximum columns for a row?',
+    '- how to do nested columns and column ordering?'
+  ],
+  month: '2020-10-07',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba1d"),
+      title: 'HTML & CSS- Day -5: HTML & CSS',
+      content: 'From the below Title, you can pick any two and complete them with responsive design.',
+      'URL link': 'https://github.com/rvsp/HTML-CSS/tree/master/Tasks',
+      provided_date: '2020-10-07',
+      submitted_date: '2020-10-08'
+    }
+  ]
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba09"),
+  title: 'DOM- Day -1: DOM',
+  contents: [
+    'What is DOM?',
+    'createElement',
+    'setAttribute',
+    'getElementById',
+    'querySelector vs querySelectorAll',
+    'innerHTML vs innerText',
+    'appendChild vs append'
+  ],
+  month: '2020-10-08',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba0a"),
+  title: 'DOM- Day -2: Document vs Window',
+  contents: [
+    'Window - Common Util functions',
+    'setTimeout vs setInterval',
+    'prompt, Alert, Confirm',
+    'working with events'
+  ],
+  month: '2020-10-09',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba0b"),
+  title: 'DOM- Day -3: Recap of Topics',
+  contents: [
+    'recap of DOM topics',
+    'Mandatory session practice task',
+    'https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/003-JS-DOM.md'
+  ],
+  month: '2020-10-13',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba1e"),
+      title: 'DOM- Day -3: Recap of Topics',
+      content: 'Task: (mandatory to complete any 2) Pagination:',
+      'URL link': [
+        'https://docs.google.com/document/d/1O8yVCwB_GaY5rZK1_mNkZ9GeYJLeom_dYmcVN3Mb2ws/edit',
+        'https://docs.google.com/document/d/1VyZJG0KZAoZEs3h_lpP65XPekNqsbFp8bouOZSWsOTc/edit',
+        'https://docs.google.com/document/d/1I8qIE7_ri5Q_1QqkxJ7rdlRmGnWWW7zCa7BXrwAi8hI/edit'
+      ],
+      provided_date: '2020-10-13',
+      submitted_date: '2020-10-14'
+    }
+  ]
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba0c"),
+  title: 'Async programming- Day -1: Callback',
+  contents: [
+    'Callback',
+    "What's the callback? - call stack, web API, event loop, queue",
+    'Use & its purpose of the callback',
+    'Pain of callback',
+    'Session reference  - http://latentflip.com/loupe/'
+  ],
+  month: '2020-10-14',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba1f"),
+      title: 'Async programming- Day -1: Callback',
+      content: 'Callback Hell Task:',
+      'URL link': ' https://docs.google.com/document/d/1K6jW6TPmqWvzoRAm2t-GlOAxKmMRsLt5zaCsdcH_3LM/edit',
+      provided_date: '2020-10-14',
+      submitted_date: '2020-10-15'
+    }
+  ]
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba0d"),
+  title: 'Async programming- Day -2: Promise',
+  contents: [
+    'Promise',
+    '- What is a promise?',
+    '- Promise States',
+    '- Promise chain',
+    '- promise.all()',
+    '- Use of fetch() & then()'
+  ],
+  month: '2020-10-15',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba20"),
+      title: 'Async programming- Day -2: Promise',
+      'URL link': 'https://docs.google.com/document/d/1s5jhTeSD2ff2rHKbC5VQjao4Jbu257dxubwEKusoA9A/edit',
+      provided_date: '2020-10-15',
+      submitted_date: '2020-10-17'
+    }
+  ]
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba0e"),
+  title: 'Async programming- Day -3: Promise & async-await',
+  contents: [
+    'Promise chaining',
+    'Async/Await with error handling'
+  ],
+  month: '2020-10-16',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba0f"),
+  title: 'Async programming- Day -4: Promise fetch - request info & request init',
+  contents: [
+    'Implementing CRUD with HTML, CSS JavaScript'
+  ],
+  month: '2020-10-19',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba10"),
+  title: 'Async programming- Day -5: Recap of topics',
+  contents: [
+    'Recap of callback, Promise Topics'
+  ],
+  month: '2020-10-20',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba21"),
+      title: 'Async programming- Day -5: Recap of topics',
+      'URL link': 'https://docs.google.com/document/d/1wa9laCdb__QIty4ZAre2-uY0OmHeq4xinhKpwjty8UI/preview',
+      provided_date: '2020-10-20',
+      submitted_date: '2020-10-22'
+    }
+  ]
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba11"),
+  title: 'React- Day -1: ES5 vs ES6',
+  contents: [
+    'ES5 vs Es6',
+    'Scoping - var vs let vs const',
+    'arrow functions',
+    'use of this keyword(lexical scoping)',
+    'template literals',
+    'spred & rest prarameter',
+    'array & object destructure',
+    'property shorthand',
+    'module import & export',
+    'Class in Javascript'
+  ],
+  month: '2020-10-21',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba12"),
+  title: 'React- Day -2: React',
+  contents: [
+    'Why react',
+    'Setup react project',
+    'Understanding JSX',
+    'Components (simple HTML layout to reusable react components)',
+    'Undetstanding the components',
+    'Passing data through props',
+    'Deploying react to netlify'
+  ],
+  month: '2020-10-22',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba22"),
+      title: 'React- Day -2: React',
+      'URL link': 'https://docs.google.com/document/d/11URBvZUsXT4Sr3YtCuv-5gcOHmkOmX976h-QKcXbWqs/edit',
+      provided_date: '2020-10-22',
+      submitted_date: '22-10-2020'
+    }
+  ]
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba13"),
+  title: 'React- Day -3: React hooks & states',
+  contents: [
+    'Working with array lists',
+    'Usage of keys',
+    'Conditional rendering',
+    'Handling Events',
+    'Props vs State'
+  ],
+  month: '2020-10-23',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba23"),
+      title: 'React- Day -3: React hooks & states',
+      'URL link': 'https://www.zenclass.in/class#:~:text=https%3A//docs.google.com/document/d/1mqZqoxmPlEioKCwVfuOYIUcG2kESrYuocrYO4h9kiRk/edit',
+      provided_date: '2020-10-23',
+      submitted_date: '2020-10-24'
+    }
+  ]
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba14"),
+  title: 'React- Day -4: React components',
+  contents: [
+    'Components - In-depth',
+    'Component life cycle',
+    'Stateful and stateless components',
+    'Reusable components',
+    'Passing dynamic data to component',
+    'Introduction to Hook'
+  ],
+  month: '2020-10-26',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba15"),
+  title: 'React- Day -5: React Hooks',
+  contents: [
+    'What is the hook?',
+    'Lifecycle of Hook',
+    'useState, useEffect',
+    'Props drilling',
+    'Passing data from child to parent component'
+  ],
+  month: '2020-10-27',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba24"),
+      title: 'React- Day -5: React Hooks',
+      'URL link': 'https://docs.google.com/document/d/1frCM6keoI6YKQqxm0XbgEP2CCZjDH5Zi8wEp_NXtk2g/edit',
+      provided_date: '2020-10-27',
+      submitted_date: '2020-10-28'
+    }
+  ]
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba16"),
+  title: 'React- Day -6: Router',
+  contents: [
+    'react-router-dom',
+    'BrouserRouter, Switch, Link, Route, URL params'
+  ],
+  month: '2020-10-28',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba25"),
+      title: 'React- Day -6: Router',
+      'URL link': 'https://docs.google.com/document/d/1nuVbWYwyP7N1zC9rAoO0taVvthGWsaHH-nfhNdklTQw/edit',
+      provided_date: '2020-10-28',
+      submitted_date: '2020-10-29'
+    }
+  ]
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba17"),
+  title: 'React- Day -7: Recap With Previous Day Topics',
+  contents: [
+    'Session-based Hands-on practice Task with any Admin Dashboard'
+  ],
+  month: '2020-10-29',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba18"),
+  title: 'React- Day -8: Context API',
+  contents: [
+    'Context-API',
+    'What is context, provide, createContext',
+    'Avoid props drilling',
+    'Session task - profile name changes'
+  ],
+  month: '2020-10-30',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba26"),
+      title: 'React- Day -8: Context API',
+      'URL link': 'https://docs.google.com/document/d/1ft6tjqQj6dsLbHJ1t2fPHgTQRSZwAE-qBzlxqTqWezw/edit',
+      provided_date: '2020-10-30',
+      submitted_date: '2020-10-30'
+    }
+  ]
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba19"),
+  title: 'React- Day -9: useRef & useReducer',
+  contents: [
+    'useRef, useReducer',
+    'Front end game demonstration - hangman / tictactoe / tile match'
+  ],
+  month: '2020-11-02',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba1a"),
+  title: 'React- Day -10: Axios',
+  contents: [
+    'Playing around with API',
+    'fetch() or Axios',
+    'Implementing simple CRUD'
+  ],
+  month: '2020-11-03',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba27"),
+      title: 'React- Day -10: Axios',
+      'URL link': 'https://docs.google.com/document/d/1-qvT8VkH2Bvv16hYm-qNiwfusRSt9ACJmceJLpLV9x8/edit',
+      provided_date: '2020-11-03',
+      submitted_date: '2020-11-05'
+    }
+  ]
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba1b"),
+  title: 'React- Day -11: practice with formik & recap',
+  contents: [
+    'Completed recap by implementing any Front end game/CRUD to understand the importance of hooks',
+    'ex:- hangman / tictactoe / tile match'
+  ],
+  month: '2020-11-04',
+  result: []
+}
+{
+  _id: ObjectId("6646cc735c93faf3fa77ba1c"),
+  title: 'React-redux- Day -12',
+  contents: [
+    'Intro to Redux - to understand the state management with react application'
+  ],
+  month: '2020-11-05',
+  result: [
+    {
+      _id: ObjectId("6646cd0d5c93faf3fa77ba28"),
+      title: 'React-redux- Day -12',
+      'URL link': 'https://docs.google.com/document/d/1XX6bLW3MsJUGbnxl_PKW5POFe55Zxo590V24GNeSChY/edit#heading=h.fyv6vm4v13li',
+      provided_date: '2020-11-05',
+      submitted_date: '2020-11-05'
+    }
+  ]
+}
+
+2.Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020 ?
+ 
+ db.company_drives.find({
+placement_conducted_date:{
+$gt: "2020-10-15",$lte: "2020-10-31"
+}
+});
+
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba2d"),
+  company_name: 'Metricoid Technology Solutions',
+  Role: 'MERN Stack Developer',
+  Openings: '4',
+  placement_conducted_date: '2020-10-16',
+  Deadline: '2020-10-20'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba2e"),
+  company_name: 'EVeez',
+  Role: 'MERN Stack Developer',
+  Openings: '2',
+  placement_conducted_date: '2020-10-19',
+  Deadline: '2020-10-22'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba2f"),
+  company_name: 'Ayoo.care',
+  Role: 'Backend Developer',
+  Openings: '1',
+  placement_conducted_date: '2020-10-22',
+  Deadline: '2020-10-25'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba30"),
+  company_name: 'Rapidqube',
+  Role: 'Software engineer trainee',
+  Openings: '15',
+  placement_conducted_date: '2020-10-24',
+  Deadline: '2020-10-27'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba31"),
+  company_name: 'Datalligence',
+  Role: 'Node JS Developer',
+  Openings: '1',
+  placement_conducted_date: '2020-10-27',
+  Deadline: '2020-10-30'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba31"),
+  company_name: 'Datalligence',
+  Role: 'Node JS Developer',
+  Openings: '1',
+  placement_conducted_date: '2020-10-27',
+  Deadline: '2020-10-30'
+}
+
+3.Find all the company drives and students who are appeared for the placement.
+
+db.company_drives.find();
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba29"),
+  company_name: 'FabGreen Technologies',
+  Role: 'React Js developer',
+  Openings: '1',
+  placement_conducted_date: '2020-10-10',
+  Deadline: '2020-10-15'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba2a"),
+  company_name: 'Es Magico',
+  Role: 'Full Stack Developer',
+  Openings: '1',
+  placement_conducted_date: '2020-10-12',
+  Deadline: '2020-10-16'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba2b"),
+  company_name: 'Devtestingtesting',
+  Role: 'Web Developer',
+  Openings: '4',
+  placement_conducted_date: '2020-10-15',
+  Deadline: '2020-10-18'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba2c"),
+  company_name: 'dev test 23223',
+  Role: 'Web Developer',
+  Openings: '5',
+  placement_conducted_date: '2020-10-15',
+  Deadline: '2020-10-18'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba2d"),
+  company_name: 'Metricoid Technology Solutions',
+  Role: 'MERN Stack Developer',
+  Openings: '4',
+  placement_conducted_date: '2020-10-16',
+  Deadline: '2020-10-20'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba2e"),
+  company_name: 'EVeez',
+  Role: 'MERN Stack Developer',
+  Openings: '2',
+  placement_conducted_date: '2020-10-19',
+  Deadline: '2020-10-22'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba2f"),
+  company_name: 'Ayoo.care',
+  Role: 'Backend Developer',
+  Openings: '1',
+  placement_conducted_date: '2020-10-22',
+  Deadline: '2020-10-25'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba30"),
+  company_name: 'Rapidqube',
+  Role: 'Software engineer trainee',
+  Openings: '15',
+  placement_conducted_date: '2020-10-24',
+  Deadline: '2020-10-27'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba31"),
+  company_name: 'Datalligence',
+  Role: 'Node JS Developer',
+  Openings: '1',
+  placement_conducted_date: '2020-10-27',
+  Deadline: '2020-10-30'
+}
+{
+  _id: ObjectId("6646cd7a5c93faf3fa77ba32"),
+  company_name: 'AdroitIQ',
+  Role: 'MERN Stack Developer',
+  Openings: '2',
+  placement_conducted_date: '2020-10-27',
+  Deadline: '2020-10-30'
+}
+
+db.users.find({ 
+placement:"Yes"
+});
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9c8"),
+  user_id: '101',
+  Name: 'Parthasarathi G',
+  'E-mail': 'partha12345@gmail.com',
+  batch: 'B51WD Tamil',
+  'Mobile No': 9876543210,
+  placement: 'Yes'
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9cc"),
+  user_id: '105',
+  Name: 'Bharathi Raja B',
+  'E-mail': 'bharrathi12345@gmail.com',
+  batch: 'B51WD Tamil',
+  'Mobile No': 8877544130,
+  placement: 'Yes'
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9cd"),
+  user_id: '106',
+  Name: 'Parthasarathi P',
+  'E-mail': 'partha1345@gmail.com',
+  batch: 'B50WD Tamil',
+  'Mobile No': 8877044130,
+  placement: 'Yes'
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9ce"),
+  user_id: '107',
+  Name: 'Sivakumar M',
+  'E-mail': 'Siva1345@gmail.com',
+  batch: 'B50WD Tamil',
+  'Mobile No': 8877554130,
+  placement: 'Yes'
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9cf"),
+  user_id: '108',
+  Name: 'Thirukumaran T',
+  'E-mail': 'thiru1045@gmail.com',
+  batch: 'B50WD Tamil',
+  'Mobile No': 8877504130,
+  placement: 'Yes'
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d0"),
+  user_id: '109',
+  Name: 'Deva Viswa G',
+  'E-mail': 'Deva1145@gmail.com',
+  batch: 'B52WD',
+  'Mobile No': 8877514130,
+  placement: 'Yes'
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d1"),
+  user_id: '110',
+  Name: 'Mathiyazhagan D',
+  'E-mail': 'Mathi1135@gmail.com',
+  batch: 'B52WD',
+  'Mobile No': 8877514230,
+  placement: 'Yes'
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d2"),
+  user_id: '111',
+  Name: 'Merlin Libin',
+  'E-mail': 'Merlin1235@gmail.com',
+  batch: 'B52WD',
+  'Mobile No': 8877514210,
+  placement: 'Yes'
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d3"),
+  user_id: '112',
+  Name: 'Marcus Mathuram',
+  'E-mail': 'Marcus1235@gmail.com',
+  batch: 'B53WD',
+  'Mobile No': 8877514530,
+  placement: 'Yes'
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d4"),
+  user_id: '113',
+  Name: 'Balaganesh S',
+  'E-mail': 'Balas1205@gmail.com',
+  batch: 'B53WD',
+  'Mobile No': 8877514550,
+  placement: 'Yes'
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d5"),
+  user_id: '114',
+  Name: 'Vinoth',
+  'E-mail': 'Vinoth1205@gmail.com',
+  batch: 'B53WD',
+  'Mobile No': 8897514550,
+  placement: 'Yes'
+}
+
+4.Find the number of problems solved by the user in codekata?
+
+db.users.aggregate([
+    {
+        $lookup:{
+  from:"codekata",
+  localField:"user_id",
+  foreignField:"user_id",
+  as:"result"
+  }
+}]);
+
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9c8"),
+  user_id: '101',
+  Name: 'Parthasarathi G',
+  'E-mail': 'partha12345@gmail.com',
+  batch: 'B51WD Tamil',
+  'Mobile No': 9876543210,
+  placement: 'Yes',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9dc"),
+      user_id: '101',
+      problems_solved: 255,
+      yet_to_be_solved: 245
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9c9"),
+  user_id: '102',
+  Name: 'Sriram',
+  'E-mail': 'sriramk1245@gmail.com',
+  batch: 'B51WD Tamil',
+  'Mobile No': 9876542130,
+  placement: 'Internship',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9dd"),
+      user_id: '102',
+      problems_solved: 250,
+      yet_to_be_solved: 250
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9ca"),
+  user_id: '103',
+  Name: 'Srinivasan R',
+  'E-mail': 'srini1245@gmail.com',
+  batch: 'B51WD Tamil',
+  'Mobile No': 9876544130,
+  placement: 'Internship',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9de"),
+      user_id: '103',
+      problems_solved: 250,
+      yet_to_be_solved: 250
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9cb"),
+  user_id: '104',
+  Name: 'Vishnu D',
+  'E-mail': 'vishnu12345@gmail.com',
+  batch: 'B51WD Tamil',
+  'Mobile No': 8876544130,
+  placement: 'Internship',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9df"),
+      user_id: '104',
+      problems_solved: 260,
+      yet_to_be_solved: 240
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9cc"),
+  user_id: '105',
+  Name: 'Bharathi Raja B',
+  'E-mail': 'bharrathi12345@gmail.com',
+  batch: 'B51WD Tamil',
+  'Mobile No': 8877544130,
+  placement: 'Yes',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9e0"),
+      user_id: '105',
+      problems_solved: 280,
+      yet_to_be_solved: 220
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9cd"),
+  user_id: '106',
+  Name: 'Parthasarathi P',
+  'E-mail': 'partha1345@gmail.com',
+  batch: 'B50WD Tamil',
+  'Mobile No': 8877044130,
+  placement: 'Yes',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9e1"),
+      user_id: '106',
+      problems_solved: 210,
+      yet_to_be_solved: 290
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9ce"),
+  user_id: '107',
+  Name: 'Sivakumar M',
+  'E-mail': 'Siva1345@gmail.com',
+  batch: 'B50WD Tamil',
+  'Mobile No': 8877554130,
+  placement: 'Yes',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9e2"),
+      user_id: '107',
+      problems_solved: 200,
+      yet_to_be_solved: 300
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9cf"),
+  user_id: '108',
+  Name: 'Thirukumaran T',
+  'E-mail': 'thiru1045@gmail.com',
+  batch: 'B50WD Tamil',
+  'Mobile No': 8877504130,
+  placement: 'Yes',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9e3"),
+      user_id: '108',
+      problems_solved: 250,
+      yet_to_be_solved: 250
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d0"),
+  user_id: '109',
+  Name: 'Deva Viswa G',
+  'E-mail': 'Deva1145@gmail.com',
+  batch: 'B52WD',
+  'Mobile No': 8877514130,
+  placement: 'Yes',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9e4"),
+      user_id: '109',
+      problems_solved: 300,
+      yet_to_be_solved: 200
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d1"),
+  user_id: '110',
+  Name: 'Mathiyazhagan D',
+  'E-mail': 'Mathi1135@gmail.com',
+  batch: 'B52WD',
+  'Mobile No': 8877514230,
+  placement: 'Yes',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9e5"),
+      user_id: '110',
+      problems_solved: 320,
+      yet_to_be_solved: 180
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d2"),
+  user_id: '111',
+  Name: 'Merlin Libin',
+  'E-mail': 'Merlin1235@gmail.com',
+  batch: 'B52WD',
+  'Mobile No': 8877514210,
+  placement: 'Yes',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9e6"),
+      user_id: '111',
+      problems_solved: 350,
+      yet_to_be_solved: 150
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d3"),
+  user_id: '112',
+  Name: 'Marcus Mathuram',
+  'E-mail': 'Marcus1235@gmail.com',
+  batch: 'B53WD',
+  'Mobile No': 8877514530,
+  placement: 'Yes',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9e7"),
+      user_id: '112',
+      problems_solved: 390,
+      yet_to_be_solved: 110
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d4"),
+  user_id: '113',
+  Name: 'Balaganesh S',
+  'E-mail': 'Balas1205@gmail.com',
+  batch: 'B53WD',
+  'Mobile No': 8877514550,
+  placement: 'Yes',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9e8"),
+      user_id: '113',
+      problems_solved: 400,
+      yet_to_be_solved: 100
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d5"),
+  user_id: '114',
+  Name: 'Vinoth',
+  'E-mail': 'Vinoth1205@gmail.com',
+  batch: 'B53WD',
+  'Mobile No': 8897514550,
+  placement: 'Yes',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9e9"),
+      user_id: '114',
+      problems_solved: 450,
+      yet_to_be_solved: 50
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d6"),
+  user_id: '115',
+  Name: 'Mohammed Haamid S',
+  'E-mail': 'Mohammed1205@gmail.com',
+  batch: 'B51WD',
+  'Mobile No': 8897514500,
+  placement: 'Internship',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9ea"),
+      user_id: '115',
+      problems_solved: 400,
+      yet_to_be_solved: 100
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d7"),
+  user_id: '116',
+  Name: 'Rajapandi G',
+  'E-mail': 'Rajapandi1205@gmail.com',
+  batch: 'B51WD',
+  'Mobile No': 8797514500,
+  placement: 'Internship',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9eb"),
+      user_id: '116',
+      problems_solved: 450,
+      yet_to_be_solved: 50
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d8"),
+  user_id: '117',
+  Name: 'Ragavi R',
+  'E-mail': 'Ragavi1205@gmail.com',
+  batch: 'B51WD',
+  'Mobile No': 8997514500,
+  placement: 'Internship',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9ec"),
+      user_id: '117',
+      problems_solved: 480,
+      yet_to_be_solved: 20
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9d9"),
+  user_id: '118',
+  Name: 'Karthikeyan M',
+  'E-mail': 'Karthi1105@gmail.com',
+  batch: 'B51WD',
+  'Mobile No': 8987514500,
+  placement: 'Internship',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9ed"),
+      user_id: '118',
+      problems_solved: 300,
+      yet_to_be_solved: 200
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9da"),
+  user_id: '119',
+  Name: 'Bharathan B',
+  'E-mail': 'Bharath1005@gmail.com',
+  batch: 'B51WD',
+  'Mobile No': 9987514500,
+  placement: 'Internship',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9ee"),
+      user_id: '119',
+      problems_solved: 450,
+      yet_to_be_solved: 50
+    }
+  ]
+}
+{
+  _id: ObjectId("6646c9a45c93faf3fa77b9db"),
+  user_id: '120',
+  Name: 'Nivash R',
+  'E-mail': 'Nivash1505@gmail.com',
+  batch: 'B51WD',
+  'Mobile No': 9987514520,
+  placement: 'Internship',
+  result: [
+    {
+      _id: ObjectId("6646cb085c93faf3fa77b9ef"),
+      user_id: '120',
+      problems_solved: 400,
+      yet_to_be_solved: 100
+    }
+  ]
+}
+5.Find all the mentors with who has the mentee's count more than 15
+db.mentors.find({
+mentees_count:{$gt:15}},{mentor_id:1,mentor_name:1,mentees_count:1});
+
+{
+  _id: ObjectId("6646ce135c93faf3fa77ba34"),
+  mentor_id: '1002',
+  mentor_name: 'Raj',
+  mentees_count: 20
+}
+{
+  _id: ObjectId("6646ce135c93faf3fa77ba35"),
+  mentor_id: '1003',
+  mentor_name: 'Ravi',
+  mentees_count: 20
+}
+{
+  _id: ObjectId("6646ce135c93faf3fa77ba37"),
+  mentor_id: '1005',
+  mentor_name: 'Sathish',
+  mentees_count: 18
+}
+{
+  _id: ObjectId("6646ce135c93faf3fa77ba3b"),
+  mentor_id: '1009',
+  mentor_name: 'Siva',
+  mentees_count: 20
+}
+{
+  _id: ObjectId("6646ce135c93faf3fa77ba3b"),
+  mentor_id: '1009',
+  mentor_name: 'Siva',
+  mentees_count: 20
+}
+6.Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
+
+
+db.usertask.find({date:{$gt:new Date("2020-10-15"),$lt:new Date("2020-10-31")}}).forEach(function(value){
+    print("Name : "+value.user_name);
+    print("Attendance :"+value.attendance);
+    print("Task : "+value.task_submission)
+})
+
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9f4"),
+  user_id: '105',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-15',
+    '2020-10-16',
+    '2020-10-19',
+    '2020-10-21',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-27',
+    '2020-10-28',
+    '2020-10-29',
+    '2020-10-30'
+  ],
+  absent_date: [
+    '2020-10-20',
+    '2020-10-22'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9f5"),
+  user_id: '106',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-16',
+    '2020-10-19',
+    '2020-10-20',
+    '2020-10-21',
+    '2020-10-22',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-27',
+    '2020-10-29',
+    '2020-10-30'
+  ],
+  absent_date: [
+    '2020-10-15',
+    '2020-10-28'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9f6"),
+  user_id: '107',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-16',
+    '2020-10-19',
+    '2020-10-20',
+    '2020-10-21',
+    '2020-10-22',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-27',
+    '2020-10-29'
+  ],
+  absent_date: [
+    '2020-10-30'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9f7"),
+  user_id: '108',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-15',
+    '2020-10-16',
+    '2020-10-19',
+    '2020-10-20',
+    '2020-10-21',
+    '2020-10-22',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-28',
+    '2020-10-29',
+    '2020-10-30'
+  ],
+  absent_date: [
+    '2020-10-27'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9f8"),
+  user_id: '109',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-15',
+    '2020-10-16',
+    '2020-10-19',
+    '2020-10-20',
+    '2020-10-22',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-27',
+    '2020-10-28',
+    '2020-10-30'
+  ],
+  absent_date: [
+    '2020-10-21',
+    '2020-10-29'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9f9"),
+  user_id: '110',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-15',
+    '2020-10-16',
+    '2020-10-19',
+    '2020-10-20',
+    '2020-10-22',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-27',
+    '2020-10-28',
+    '2020-10-29',
+    '2020-10-30'
+  ],
+  absent_date: [
+    '2020-10-21'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9fa"),
+  user_id: '111',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-15',
+    '2020-10-16',
+    '2020-10-20',
+    '2020-10-21',
+    '2020-10-22',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-27',
+    '2020-10-28',
+    '2020-10-30'
+  ],
+  absent_date: [
+    '2020-10-19',
+    '2020-10-29'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9fb"),
+  user_id: '112',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-15',
+    '2020-10-16',
+    '2020-10-20',
+    '2020-10-21',
+    '2020-10-22',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-27',
+    '2020-10-28',
+    '2020-10-30'
+  ],
+  absent_date: [
+    '2020-10-19',
+    '2020-10-29'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9fc"),
+  user_id: '113',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-15',
+    '2020-10-16',
+    '2020-10-20',
+    '2020-10-21',
+    '2020-10-22',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-27',
+    '2020-10-28',
+    '2020-10-30'
+  ],
+  absent_date: [
+    '2020-10-19',
+    '2020-10-29'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9fd"),
+  user_id: '114',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-15',
+    '2020-10-16',
+    '2020-10-20',
+    '2020-10-21',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-27',
+    '2020-10-28',
+    '2020-10-30'
+  ],
+  absent_date: [
+    '2020-10-22',
+    '2020-10-27'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9fe"),
+  user_id: '115',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-15',
+    '2020-10-16',
+    '2020-10-19',
+    '2020-10-20',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-27',
+    '2020-10-28',
+    '2020-10-29',
+    '2020-10-30',
+    '2020-10-31'
+  ],
+  absent_date: [
+    '2020-10-21',
+    '2020-10-22'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77b9ff"),
+  user_id: '116',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-15',
+    '2020-10-16',
+    '2020-10-19',
+    '2020-10-22',
+    '2020-10-23',
+    '2020-10-26',
+    '2020-10-27',
+    '2020-10-28',
+    '2020-10-29',
+    '2020-10-30'
+  ],
+  absent_date: [
+    '2020-10-20',
+    '2020-10-21'
+  ]
+}
+{
+  _id: ObjectId("6646cbb75c93faf3fa77ba03"),
+  user_id: '120',
+  present_date: [
+    '2020-10-01',
+    '2020-10-02',
+    '2020-10-05',
+    '2020-10-06',
+    '2020-10-07',
+    '2020-10-08',
+    '2020-10-09',
+    '2020-10-12',
+    '2020-10-13',
+    '2020-10-14',
+    '2020-10-15',
+    '2020-10-16',
+    '2020-10-19',
+    '2020-10-20',
+    '2020-10-21',
+    '2020-10-22',
+    '2020-10-26',
+    '2020-10-28',
+    '2020-10-29',
+    '2020-10-30'
+  ],
+  absent_date: [
+    '2020-10-23',
+    '2020-10-27'
+  ]
+}
+
+
+
+
