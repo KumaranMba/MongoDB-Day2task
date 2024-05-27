@@ -1,0 +1,169 @@
+[
+    {
+        "user_id":"101",
+        "Name":"Parthasarathi G",
+        "E-mail":"partha12345@gmail.com",
+        "batch":"B51WD Tamil",
+        "Mobile No":9876543210,
+        "placement":"Yes"
+    },
+    {
+        "user_id":"102",
+        "Name":"Sriram",
+        "E-mail":"sriramk1245@gmail.com",
+        "batch":"B51WD Tamil",
+        "Mobile No":9876542130,
+        "placement":"Internship"
+    },
+    {
+        "user_id":"103",
+        "Name":"Srinivasan R",
+        "E-mail":"srini1245@gmail.com",
+        "batch":"B51WD Tamil",
+        "Mobile No":9876544130,
+        "placement":"Internship"
+    },
+    {
+        "user_id":"104",
+        "Name":"Vishnu D",
+        "E-mail":"vishnu12345@gmail.com",
+        "batch":"B51WD Tamil",
+        "Mobile No":8876544130,
+        "placement":"Internship"
+
+    },
+    {
+        "user_id":"105",
+        "Name":"Bharathi Raja B",
+        "E-mail":"bharrathi12345@gmail.com",
+        "batch":"B51WD Tamil",
+        "Mobile No":8877544130,
+        "placement":"Yes"
+
+    },
+    {
+        "user_id":"106",
+        "Name":"Parthasarathi P",
+        "E-mail":"partha1345@gmail.com",
+        "batch":"B50WD Tamil",
+        "Mobile No":8877044130,
+        "placement":"Yes"
+
+    },
+    {
+        "user_id":"107",
+        "Name":"Sivakumar M",
+        "E-mail":"Siva1345@gmail.com",
+        "batch":"B50WD Tamil",
+        "Mobile No":8877554130,
+        "placement":"Yes"
+    },
+    {
+        "user_id":"108",
+        "Name":"Thirukumaran T",
+        "E-mail":"thiru1045@gmail.com",
+        "batch":"B50WD Tamil",
+        "Mobile No":8877504130,
+        "placement":"Yes"
+    },
+    {
+        "user_id":"109",
+        "Name":"Deva Viswa G",
+        "E-mail":"Deva1145@gmail.com",
+        "batch":"B52WD",
+        "Mobile No":8877514130,
+        "placement":"Yes"
+    },
+    {
+        "user_id":"110",
+        "Name":"Mathiyazhagan D",
+        "E-mail":"Mathi1135@gmail.com",
+        "batch":"B52WD",
+        "Mobile No":8877514230,
+        "placement":"Yes"
+
+    },
+    {
+        "user_id":"111",
+        "Name":"Merlin Libin",
+        "E-mail":"Merlin1235@gmail.com",
+        "batch":"B52WD",
+        "Mobile No":8877514210,
+        "placement":"Yes"
+
+    },
+    {
+        "user_id":"112",
+        "Name":"Marcus Mathuram",
+        "E-mail":"Marcus1235@gmail.com",
+        "batch":"B53WD",
+        "Mobile No":8877514530,
+        "placement":"Yes"
+    },
+    {
+        "user_id":"113",
+        "Name":"Balaganesh S",
+        "E-mail":"Balas1205@gmail.com",
+        "batch":"B53WD",
+        "Mobile No":8877514550,
+        "placement":"Yes"
+
+    },
+    {
+        "user_id":"114",
+        "Name":"Vinoth",
+        "E-mail":"Vinoth1205@gmail.com",
+        "batch":"B53WD",
+        "Mobile No":8897514550,
+        "placement":"Yes"
+    },
+    {
+        "user_id":"115",
+        "Name":"Mohammed Haamid S",
+        "E-mail":"Mohammed1205@gmail.com",
+        "batch":"B51WD",
+        "Mobile No":8897514500,
+        "placement":"Internship"  
+    },
+    {
+        "user_id":"116",
+        "Name":"Rajapandi G",
+        "E-mail":"Rajapandi1205@gmail.com",
+        "batch":"B51WD",
+        "Mobile No":8797514500,
+        "placement":"Internship"  
+
+    },
+    {
+        "user_id":"117",
+        "Name":"Ragavi R",
+        "E-mail":"Ragavi1205@gmail.com",
+        "batch":"B51WD",
+        "Mobile No":8997514500,
+        "placement":"Internship"  
+    },
+    {
+        "user_id":"118",
+        "Name":"Karthikeyan M",
+        "E-mail":"Karthi1105@gmail.com",
+        "batch":"B51WD",
+        "Mobile No":8987514500,
+        "placement":"Internship"  
+    },
+    {
+        "user_id":"119",
+        "Name":"Bharathan B",
+        "E-mail":"Bharath1005@gmail.com",
+        "batch":"B51WD",
+        "Mobile No":9987514500,
+        "placement":"Internship"    
+    },
+    {
+        "user_id":"120",
+        "Name":"Nivash R",
+        "E-mail":"Nivash1505@gmail.com",
+        "batch":"B51WD",
+        "Mobile No":9987514520,
+        "placement":"Internship"    
+    }
+]

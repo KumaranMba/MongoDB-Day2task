@@ -1,0 +1,79 @@
+[
+    {
+        "title":"HTML & CSS- Day -5: HTML & CSS",
+        "content":"From the below Title, you can pick any two and complete them with responsive design.",
+        "URL link":"https://github.com/rvsp/HTML-CSS/tree/master/Tasks",
+        "provided_date":"2020-10-07",
+        "submitted_date":"2020-10-08"
+    },
+    {
+        "title":"DOM- Day -3: Recap of Topics",
+        "content":"Task: (mandatory to complete any 2) Pagination:",
+        "URL link":["https://docs.google.com/document/d/1O8yVCwB_GaY5rZK1_mNkZ9GeYJLeom_dYmcVN3Mb2ws/edit" ,
+         "https://docs.google.com/document/d/1VyZJG0KZAoZEs3h_lpP65XPekNqsbFp8bouOZSWsOTc/edit" ,
+         "https://docs.google.com/document/d/1I8qIE7_ri5Q_1QqkxJ7rdlRmGnWWW7zCa7BXrwAi8hI/edit"],
+         "provided_date":"2020-10-13",
+        "submitted_date":"2020-10-14"
+    },
+    {
+        "title":"Async programming- Day -1: Callback",
+        "content":"Callback Hell Task:",
+        "URL link":" https://docs.google.com/document/d/1K6jW6TPmqWvzoRAm2t-GlOAxKmMRsLt5zaCsdcH_3LM/edit",
+        "provided_date":"2020-10-14",
+        "submitted_date":"2020-10-15"
+    },
+    {
+        "title":"Async programming- Day -2: Promise",
+        "URL link":"https://docs.google.com/document/d/1s5jhTeSD2ff2rHKbC5VQjao4Jbu257dxubwEKusoA9A/edit",
+        "provided_date":"2020-10-15",
+        "submitted_date":"2020-10-17"
+    },
+    {
+        "title":"Async programming- Day -5: Recap of topics",
+        "URL link":"https://docs.google.com/document/d/1wa9laCdb__QIty4ZAre2-uY0OmHeq4xinhKpwjty8UI/preview",
+        "provided_date":"2020-10-20",
+        "submitted_date":"2020-10-22"
+    },
+    {
+        "title":"React- Day -2: React",
+        "URL link":"https://docs.google.com/document/d/11URBvZUsXT4Sr3YtCuv-5gcOHmkOmX976h-QKcXbWqs/edit",
+        "provided_date":"2020-10-22",
+        "submitted_date":"22-10-2020"
+    },
+    {
+        "title":"React- Day -3: React hooks & states",
+        "URL link":"https://www.zenclass.in/class#:~:text=https%3A//docs.google.com/document/d/1mqZqoxmPlEioKCwVfuOYIUcG2kESrYuocrYO4h9kiRk/edit",
+        "provided_date":"2020-10-23",
+        "submitted_date":"2020-10-24"
+    },
+    {
+        "title":"React- Day -5: React Hooks",
+        "URL link":"https://docs.google.com/document/d/1frCM6keoI6YKQqxm0XbgEP2CCZjDH5Zi8wEp_NXtk2g/edit",
+        "provided_date":"2020-10-27",
+        "submitted_date":"2020-10-28"
+    },
+    {
+        "title":"React- Day -6: Router",
+        "URL link":"https://docs.google.com/document/d/1nuVbWYwyP7N1zC9rAoO0taVvthGWsaHH-nfhNdklTQw/edit",
+        "provided_date":"2020-10-28",
+        "submitted_date":"2020-10-29"
+    },
+    {
+        "title":"React- Day -8: Context API",
+        "URL link":"https://docs.google.com/document/d/1ft6tjqQj6dsLbHJ1t2fPHgTQRSZwAE-qBzlxqTqWezw/edit",
+        "provided_date":"2020-10-30",
+        "submitted_date":"2020-10-30"
+    },
+    {
+        "title":"React- Day -10: Axios",
+        "URL link":"https://docs.google.com/document/d/1-qvT8VkH2Bvv16hYm-qNiwfusRSt9ACJmceJLpLV9x8/edit",
+        "provided_date":"2020-11-03",
+        "submitted_date":"2020-11-05"
+    },
+    {
+        "title":"React-redux- Day -12",
+        "URL link":"https://docs.google.com/document/d/1XX6bLW3MsJUGbnxl_PKW5POFe55Zxo590V24GNeSChY/edit#heading=h.fyv6vm4v13li",
+        "provided_date":"2020-11-05",
+        "submitted_date":"2020-11-05"
+    }
+]

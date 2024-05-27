@@ -1,0 +1,294 @@
+[
+{
+    "title":"HTML- Day -1: HTML",
+    "contents":["What is HTML & Why use it?",
+    "Basic Tags",
+    "HTML vs HTML5",
+    "div vs section vs article",
+    "div vs span",
+    "inline vs block elements",
+    "HTML Forms",
+    "Input elements and attributes",
+    "Form submit"],
+    "month":"2020-10-01"
+},
+{
+    "title":"HTML & CSS- Day -2: HTML & CSS",
+    "contents":["What is CSS?",
+    "ways to use CSS", 
+    "property & value", 
+    "class vs id", 
+    "use of important", 
+    "display property: inline, block"],
+    "month":"2020-10-02"
+},
+{
+    "title":"HTML & CSS- Day -3: HTML & CSS",
+    "contents":[
+       "Intro to pseudo-classes (link, visited,hover, active)",
+       "box model: padding, margin, border", 
+       "Grid",
+       "Flex - display, direction, wrap, flex-flow, justify-content, align-content",
+       "position property: fixed, static, relative, absolute, sticky",
+       "parent inherit",
+       "gradient"
+    ],
+    "month":"2020-10-05"
+},
+{
+    "title":"HTML & CSS- Day -4: HTML & CSS",
+    "contents":[
+        "overflow - hidden, scroll, auto, visible",
+        "dropbox",
+        "measurements", 
+        "fonts", 
+        "icons", 
+        "media query"  
+    ],
+    "month":"2020-10-06"
+},
+{
+    "title":"HTML & CSS- Day -5: HTML & CSS",
+    "contents":[
+        "What is RWD?",
+        "What is the mobile-first approach?",
+        "Bootstrap",
+ "- How to set up bootstrap?",
+ "- What is the layout?",
+ "- what is container, container-fluid & container with breakpoints?",
+ "- What is a grid in Bootstrap?",
+ "- what is a column prefix & its use and maximum columns for a row?",
+ "- how to do nested columns and column ordering?"
+    ],
+    "month":"2020-10-07"   
+},
+{
+    "title":"DOM- Day -1: DOM",
+    "contents":[
+        "What is DOM?",
+        "createElement", 
+        "setAttribute",
+        "getElementById", 
+        "querySelector vs querySelectorAll",
+        "innerHTML vs innerText",
+        "appendChild vs append"
+    ],
+"month":"2020-10-08"
+},
+{
+    "title":"DOM- Day -2: Document vs Window",
+    "contents":[
+        "Window - Common Util functions",
+        "setTimeout vs setInterval",
+        "prompt, Alert, Confirm",
+        "working with events"
+    ],
+    "month":"2020-10-09"
+},
+{
+    "title":"DOM- Day -3: Recap of Topics",
+    "contents":[
+        "recap of DOM topics",
+        "Mandatory session practice task",
+        "https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/003-JS-DOM.md"
+    ],
+    "month":"2020-10-13"
+},
+{
+    "title":"Async programming- Day -1: Callback",
+    "contents":[
+        "Callback",
+        "What's the callback? - call stack, web API, event loop, queue",
+        "Use & its purpose of the callback",
+        "Pain of callback",
+        "Session reference  - http://latentflip.com/loupe/"
+    ],
+    "month":"2020-10-14"
+},
+{
+    "title":"Async programming- Day -2: Promise",
+    "contents":[
+        "Promise",
+        "- What is a promise?",
+        "- Promise States",
+        "- Promise chain",
+        "- promise.all()",
+        "- Use of fetch() & then()"
+    ],
+    "month":"2020-10-15"
+},
+{
+    "title":"Async programming- Day -3: Promise & async-await",
+    "contents":[
+        "Promise chaining",
+        "Async/Await with error handling"
+    ],
+    "month":"2020-10-16"
+},
+{
+    "title":"Async programming- Day -4: Promise fetch - request info & request init",
+    "contents":[
+        "Implementing CRUD with HTML, CSS JavaScript"
+    ],
+    "month":"2020-10-19"
+},
+{
+    "title":"Async programming- Day -5: Recap of topics",
+    "contents":[
+        "Recap of callback, Promise Topics"
+    ],
+    "month":"2020-10-20"
+},
+{
+    "title":"React- Day -1: ES5 vs ES6",
+    "contents":[
+        "ES5 vs Es6",
+        "Scoping - var vs let vs const",
+        "arrow functions",
+        "use of this keyword(lexical scoping)",
+        "template literals",
+        "spred & rest prarameter",
+        "array & object destructure",
+        "property shorthand",
+        "module import & export",
+        "Class in Javascript"
+    ],
+    "month":"2020-10-21"
+},
+{
+    "title":"React- Day -2: React",
+    "contents":[
+        "Why react",
+        "Setup react project",
+        "Understanding JSX",
+        "Components (simple HTML layout to reusable react components)",
+        "Undetstanding the components",
+        "Passing data through props",
+        "Deploying react to netlify"
+    ],
+    "month":"2020-10-22"
+},
+{
+    "title":"React- Day -3: React hooks & states",
+    "contents":[
+            "Working with array lists",
+            "Usage of keys",
+            "Conditional rendering",
+            "Handling Events",
+            "Props vs State"
+    ],
+    "month":"2020-10-23"
+},
+{
+    "title":"React- Day -4: React components",
+    "contents":[
+        "Components - In-depth",
+        "Component life cycle",
+        "Stateful and stateless components",
+        "Reusable components", 
+        "Passing dynamic data to component",
+        "Introduction to Hook"
+    ],
+    "month":"2020-10-26"
+},
+{
+    "title":"React- Day -5: React Hooks",
+    "contents":[
+        "What is the hook?",
+        "Lifecycle of Hook",
+        "useState, useEffect",
+        "Props drilling",
+        "Passing data from child to parent component"
+    ],
+    "month":"2020-10-27"
+},
+{
+    "title":"React- Day -6: Router",
+    "contents":[
+        "react-router-dom",
+        "BrouserRouter, Switch, Link, Route, URL params"
+    ],
+    "month":"2020-10-28"
+},
+{
+    "title":"React- Day -7: Recap With Previous Day Topics",
+    "contents":[
+        "Session-based Hands-on practice Task with any Admin Dashboard"
+    ],
+    "month":"2020-10-29"
+},
+{
+    "title":"React- Day -8: Context API",
+    "contents":[
+        "Context-API",
+        "What is context, provide, createContext",
+        "Avoid props drilling",
+        "Session task - profile name changes"
+    ],
+    "month":"2020-10-30"
+},
+{
+    "title":"React- Day -9: useRef & useReducer",
+    "contents":[
+        "useRef, useReducer",
+        "Front end game demonstration - hangman / tictactoe / tile match"
+    ],
+    "month":"2020-11-02"
+},
+{
+    "title":"React- Day -10: Axios",
+    "contents":[
+        "Playing around with API",
+        "fetch() or Axios",
+        "Implementing simple CRUD"
+    ],
+    "month":"2020-11-03"
+},
+{
+    "title":"React- Day -11: practice with formik & recap",
+    "contents":[
+        "Completed recap by implementing any Front end game/CRUD to understand the importance of hooks", 
+        "ex:- hangman / tictactoe / tile match"
+    ],
+    "month":"2020-11-04"
+},
+{
+    "title":"React-redux- Day -12",
+    "contents":[
+        "Intro to Redux - to understand the state management with react application"
+    ],
+    "month":"2020-11-05"
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

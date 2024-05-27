@@ -1,0 +1,73 @@
+[
+   {
+    "company_name":"FabGreen Technologies",
+    "Role":"React Js developer",
+    "Openings":"1",
+    "placement_conducted_date":"2020-10-10",
+    "Deadline":"2020-10-15"
+   },
+   {
+    "company_name":"Es Magico",
+    "Role":"Full Stack Developer",
+    "Openings":"1",
+    "placement_conducted_date":"2020-10-12",
+    "Deadline":"2020-10-16"
+
+   },
+   {
+    "company_name":"Devtestingtesting",
+    "Role":"Web Developer",
+    "Openings":"4",
+    "placement_conducted_date":"2020-10-15",
+    "Deadline":"2020-10-18"
+   },
+   {
+    "company_name":"dev test 23223",
+    "Role":"Web Developer",
+    "Openings":"5",
+    "placement_conducted_date":"2020-10-15",
+    "Deadline":"2020-10-18"
+   },
+   {
+    "company_name":"Metricoid Technology Solutions",
+    "Role":"MERN Stack Developer",
+    "Openings":"4",
+    "placement_conducted_date":"2020-10-16",
+    "Deadline":"2020-10-20"
+   },
+   {
+    "company_name":"EVeez",
+    "Role":"MERN Stack Developer",
+    "Openings":"2",
+    "placement_conducted_date":"2020-10-19",
+    "Deadline":"2020-10-22"
+   },
+   {
+    "company_name":"Ayoo.care",
+    "Role":"Backend Developer",
+    "Openings":"1",
+    "placement_conducted_date":"2020-10-22",
+    "Deadline":"2020-10-25"
+   },
+   {    
+    "company_name":"Rapidqube",
+   "Role":"Software engineer trainee",
+   "Openings":"15",
+   "placement_conducted_date":"2020-10-24",
+   "Deadline":"2020-10-27"
+   },
+   {
+    "company_name":"Datalligence",
+    "Role":"Node JS Developer",
+    "Openings":"1",
+    "placement_conducted_date":"2020-10-27",
+    "Deadline":"2020-10-30"
+   },
+   {
+    "company_name":"AdroitIQ",
+    "Role":"MERN Stack Developer",
+    "Openings":"2",
+    "placement_conducted_date":"2020-10-27",
+    "Deadline":"2020-10-30"
+   }
+]
